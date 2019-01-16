@@ -64,8 +64,4 @@ function parseDom(str) {
   return objE.childNodes
 };
 
-export {
-  wakeApp,
-  wakeAppInAndroid,
-  wakeAppByBrowser
-}
+export default wakeApp
