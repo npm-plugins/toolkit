@@ -1,0 +1,42 @@
+{
+  "name": "@minjs/toolkit",
+  "version": "1.0.0",
+  "description": "some javascript toolkit",
+  "keywords": [
+    "@minjs",
+    "javascript",
+    "toolkit"
+  ],
+  "files": [
+    "lib",
+    "toolkit.d.ts"
+  ],
+  "main": "lib/toolkit.min.js",
+  "module": "lib/index.js",
+  "author": "303890562@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npm-plugins/toolkit.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/index.js",
+    "build": "rm -rf lib/* && rollup -c && npm run compile",
+    "compile": "babel --config .babelrc src -d lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-export-default-from": "^7.2.0",
+    "@babel/plugin-proposal-export-namespace-from": "^7.2.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/runtime": "^7.2.0",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.3.0",
+    "rollup-plugin-babel-minify": "^6.2.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}

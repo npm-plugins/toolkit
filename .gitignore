@@ -1,0 +1,4 @@
+node_modules
+dist
+packgae-error.json
+yarn-error.json
