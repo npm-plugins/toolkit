@@ -1,7 +1,15 @@
 ## 常用的工具库
 
+- 唤醒app：wakeApp
+- 本地存储：storage cookie
+- 日期：date2json dateFormat
+- 单位换算：px2rem
+- 碰撞检测：hitTestCircle hitTestContain hitTestRectangle
+- 设备相关：getDeviceType getBroEnv getMobileType getNetwork
+
+- 获取url参数：getUrlParameter
 - 二叉树：BinaryTree
-- px转rem：px2rem
+- 事件监听：EventEmiter
 
 ## use
 
