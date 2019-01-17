@@ -6,6 +6,8 @@ export cookie from './core/cache/cookie.js'
 export date2json from './core/date/date2json.js'
 export dateFormat from './core/date/dateFormat.js'
 
+export jsonp from './core/http/jsonp.js'
+
 export px2rem from './core/layout/px2rem.js'
 
 export hitTestCircle from './core/physical/hitTestCircle.js'
