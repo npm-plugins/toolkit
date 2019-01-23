@@ -1,6 +1,6 @@
 import resolve from 'rollup-plugin-node-resolve'
 import babel from 'rollup-plugin-babel'
-import common from 'rollup-plugin-commonjs'
+import commonjs from 'rollup-plugin-commonjs'
 import minify from 'rollup-plugin-babel-minify'
 
 const moduleNmae = 'toolkit'
@@ -23,7 +23,7 @@ export default {
     babel({
       exclude: 'node_modules/**'
     }),
-    common(),
+    commonjs(),
     minify({ comments: false })
   ]
 }

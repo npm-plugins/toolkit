@@ -4,22 +4,21 @@
       "@babel/env",
       {
         "useBuiltIns": "usage",
-        "modules": false,
         "targets": {
-          "node": 4
-        }
+          "browsers": [
+            "last 2 versions"
+          ]
+        },
+        "modules": false
       }
     ]
   ],
   "plugins": [
-    "@babel/proposal-export-namespace-from",
     "@babel/proposal-class-properties",
     "@babel/proposal-export-default-from",
     ["@babel/transform-runtime", {
       "corejs": false,
-      "helpers": false,
-      "regenerator": true,
-      "useESModules": true
+      "helpers": false
     }]
   ]
 }
