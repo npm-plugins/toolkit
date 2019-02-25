@@ -26,3 +26,5 @@ export getUrlParameter from './core/url/getUrlParameter.js'
 export BinaryTree from './core/BinaryTree'
 
 export EventEmiter from './core/EventEmiter.js'
+
+export CubicBezier from './core/cubicBezier/CubicBezier.js'

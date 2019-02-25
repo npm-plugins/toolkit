@@ -12,6 +12,8 @@
 - 二叉树：BinaryTree
 - 事件监听：EventEmiter
 
+- 贝塞尔曲线 CubicBezier
+
 ## use
 
 ```
